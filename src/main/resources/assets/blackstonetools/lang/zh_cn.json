@@ -1,0 +1,13 @@
+{
+ "item.blackstonetools.blackstone_pickaxe": "黑石镐",
+ "item.blackstonetools.blackstone_sword": "黑石剑",
+ "item.blackstonetools.blackstone_axe": "黑石斧",
+ "item.blackstonetools.blackstone_shovel": "黑石锹",
+ "item.blackstonetools.blackstone_hoe": "黑石锄",
+
+ "item.vanilla-hammers.blackstone_hammer": "黑石锤",
+ "item.vanillaexcavators.blackstone_excavator": "黑石开凿锄",
+ "item.blackstonetools.blackstone_superaxe": "超级黑石斧",
+
+ "block.blackstonetools.blackstone_furnace": "黑石熔炉"
+}
