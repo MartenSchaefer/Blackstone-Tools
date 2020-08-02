@@ -32,7 +32,10 @@ public class BlackstoneToolsMod implements ModInitializer {
  		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "blackstone_superaxe"), BlackstoneToolsItems.BLACKSTONE_SUPERAXE);
  		ModItems.mapOfIdentifiers.put(new Identifier(MOD_ID, "blackstone_superaxe"), BlackstoneToolsItems.BLACKSTONE_SUPERAXE);
 		}
- 	Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "blackstone_furnace"), BlackstoneToolsBlocks.BLACKSTONE_FURNACE);
+		if(FabricLoader.getInstance().isModLoaded("mattocks"))
+			Registry.register(Registry.ITEM, new Identifier(MOD_ID, "blackstone_mattock"), BlackstoneToolsItems.BLACKSTONE_MATTOCK);
+
+		Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "blackstone_furnace"), BlackstoneToolsBlocks.BLACKSTONE_FURNACE);
  	Registry.register(Registry.ITEM, new Identifier(MOD_ID, "blackstone_furnace"), new BlockItem(BlackstoneToolsBlocks.BLACKSTONE_FURNACE, new Item.Settings().group(ItemGroup.MISC)));
  }
 }

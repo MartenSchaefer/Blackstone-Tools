@@ -27,8 +27,10 @@ dependencies {
 	modImplementation "io.github.cottonmc:LibCD:${project.libcd_version}"
 	include "io.github.cottonmc:LibCD:${project.libcd_version}"
 
+	// Compatibility with other mods
 	modImplementation "com.github.Draylar:vanilla-excavators:${project.vanilla_excavators_version}"
 	modImplementation "com.github.Levoment:SuperAxes:${project.superaxes_version}"
+	modImplementation "com.github.HexBugOrion:Mattocks:${project.mattocks_version}"
 }
 
 processResources {
