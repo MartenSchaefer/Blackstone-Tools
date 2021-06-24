@@ -1,0 +1,26 @@
+{
+  "condition": {
+    "item": "blackstonetools:blackstone_mattock"
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "#| ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:blackstone"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "blackstonetools:blackstone_mattock",
+      "count": 1
+    },
+    "group": "blackstone_mattock"
+  }
+}

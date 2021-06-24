@@ -1,0 +1,28 @@
+{
+  "condition": {
+    "item": "vanilla-hammers:blackstone_hammer"
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#*#",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "*": {
+        "item": "minecraft:blackstone"
+      },
+      "#": {
+        "item": "minecraft:polished_blackstone"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "vanilla-hammers:blackstone_hammer",
+      "count": 1
+    }
+  }
+}

@@ -1,7 +1,0 @@
-{
-    "when": [
-        {
-            "libcd:item_exists": "vanilla-hammers:blackstone_hammer"
-        }
-    ]
-}

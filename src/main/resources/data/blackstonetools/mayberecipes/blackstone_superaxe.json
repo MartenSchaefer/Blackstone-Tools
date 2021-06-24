@@ -1,0 +1,27 @@
+{
+  "condition": {
+    "item": "blackstonetools:blackstone_superaxe"
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "**#",
+      "*|#",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:polished_blackstone"
+      },
+      "*": {
+        "item": "minecraft:blackstone"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "blackstonetools:blackstone_superaxe"
+    }
+  }
+}
